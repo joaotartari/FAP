@@ -1,5 +1,5 @@
-CREATE TABLE endereco (
-	id_endereco PRIMARY KEY,
+CREATE TABLE endereço (
+	id_endereço PRIMARY KEY,
 	rua VARCHAR(100) NOT NULL,
 	numero VARCHAR(100) NOT NULL,
 	bairro VARCHAR(100) NOT NULL,
