@@ -1,0 +1,9 @@
+CREATE TABLE endereco (
+	id_endereco PRIMARY KEY,
+	rua VARCHAR(100) NOT NULL,
+	numero VARCHAR(100) NOT NULL,
+	bairro VARCHAR(100) NOT NULL,
+	cidade VARCHAR(100) NOT NULL,
+	estado VARCHAR(100) NOT NULL,
+	cep VARCHAR(100) NOT NULL,
+	complemento VARCHAR(100) NOT NULL
