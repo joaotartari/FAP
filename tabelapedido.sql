@@ -1,4 +1,4 @@
-Create table endereço(
+Create table pedido(
     primary key int id_endereço NOT NULL,
     data_ende Date NOT NULL,
     status varchar(50),
